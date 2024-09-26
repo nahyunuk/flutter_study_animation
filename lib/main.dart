@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:study_animation/AnimatedContainerPage.dart';
-import 'package:study_animation/AnimatedDefaultTextStylePage.dart';
+import 'package:study_animation/ControllerWithCurvedAnimation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: AnimatedDefaultTextStylePage(),
+      home: ControllerWithCurvedAnimation(),
     );
   }
 }
