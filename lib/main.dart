@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:study_animation/ControllerWithCurvedAnimation.dart';
+import 'package:study_animation/ControllerWithRotationAnimation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ControllerWithCurvedAnimation(),
+      home: ControllerWithRotationAnimation(),
     );
   }
 }
